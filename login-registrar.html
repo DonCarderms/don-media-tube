@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<title>Login/registrar</title>
+	<style type="text/css">
+		body{
+			background: url(imagens/background.png);
+			font-family:Arial, Helvetica, sans-serif;
+
+		}
+		header{
+			background: red ;
+			height: 100px;
+			width: 1343px;
+		}
+		header img{
+		margin-left:400px ;
+		}
+	 	main{
+	 		background: red;
+	 		width: 450px;
+	 		height: 400px;
+	 		margin: 0 auto;
+	 		padding: 0 auto;
+	 		margin-top:100px ;
+	 		margin-bottom: 100px;
+	 		border-radius: 20px;
+		}
+		#login{
+		
+			padding-top: 80px;
+			padding-left: 100px;
+		}
+		h2{
+			color: white;
+			margin-left: 90px;
+		}
+		span{
+			color: white;
+		}
+		#email{
+			border: none;
+			padding: 8px;
+		}
+		#senha{
+			background: white url(imagens/cadeado.png) no-repeat bottom right;
+			background-size: 20px;
+			border: none;
+			padding: 8px;
+		}
+		#submit{
+			margin-left: 100px;
+			padding-left: 20px;
+			padding-right: 20px;
+			padding-top: 8px;
+			padding-bottom: 8px;
+			border: none;
+			}
+		#submit:hover{
+			background:#BCBFB6;
+			cursor: pointer;
+		}
+		#registrar{
+			margin-top: 40px;
+			margin-left: 90px;
+			padding: 10px;
+		}
+		#registrar:hover {
+			cursor: pointer;
+		}
+		div form label{
+			margin-left: 5px;
+		}
+</style>
+</head>
+<body>
+	<header>
+		<a href="index.html"><img src="imagens/icon.png"></a>
+	</header>
+
+	<main>
+
+		<div id="login">
+			<form>
+				
+				<h2>login<img src="imagens/people.png" width="50px"></h2>
+				
+				<label  for="email"><span>E-mail:</span></label><input id="email" type="text" name="email" placeholder="E-mail"><br><br>
+				 <span>Senha:</span>
+				<input  id="senha" type="password"  name="senha" placeholder="senha"><br><br>
+				<input id="submit" type="submit" value="logar" name="logar">
+			</form>
+			 <a href="registrar.html">
+			 	<input id="registrar" type="button" name="registrar" value="registrar-se">
+			 </a>
+		</div>
+	</main>
+</body>
+</html>

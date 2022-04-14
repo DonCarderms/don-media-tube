@@ -19,6 +19,17 @@ body{
    padding: 20px;
 }
 
+#pesquisa{
+	float: center;
+	border: none;
+	padding: 10px;
+	background:white url(../imagens/search.png) no-repeat bottom right;
+	background-size: 20px;
+	width: 500px;
+	height: 50px;
+}
+
+
 #icon-youtube{
 	padding-top: 10px;
 	position: top;
@@ -109,6 +120,7 @@ padding-left: 15px;
 }
 #redes-socias ul {
 	list-style: none;
+
 }
 #redes-socias ul {
 	float: right;
@@ -135,9 +147,14 @@ padding-left: 15px;
 	height: 25px;
 }
 .redes-socias-icon:hover {
-	width: 26px;
-	height: 26px;
+	width: 28px;
+	height: 28px;
 }
 
 
+/*pagina login e registrar*/
+#login-registar{
 
+	margin: 0 auto;
+	padding: 0 auto;
+}
