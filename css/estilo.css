@@ -1,0 +1,143 @@
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#FAF9C1 ;
+	margin: 0 ;
+	padding: 0;
+	/*width: 100%;*/
+}
+
+#ppp{
+	width: 100%;
+	min-width: 1300px;
+}
+#container{
+	width: 100%;
+	min-width: 720px;*/
+}
+.cabecalho{
+	background: red;
+   padding: 20px;
+}
+
+#icon-youtube{
+	padding-top: 10px;
+	position: top;
+}
+.cabecalho h1{
+	color: white;
+	 text-align: center;
+	 font-size: 3em;	
+}
+#menu{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+min-width: 500px;
+margin-right:0px;
+ }
+
+#menu ul{
+background: red;
+padding: 40px;
+margin: 0px;
+list-style: none;
+width: 700px;
+}
+#menu ul li{
+	float: left;
+   padding: 5px;
+}
+#menu ul li a {
+	color: black;
+	text-decoration: none;
+  background: white;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 1em;
+ margin: 0;
+ box-shadow:0 0 15px black;	
+}
+#menu ul li a:hover{
+	background: #d3d3d3;
+	color: black;
+	border-radius: 15px;
+	font-size: 1em;
+}
+.conteudo{
+	max-width: 1300px;
+	/*width: 100%;*/
+	padding: 10px;
+	margin: 0 auto;
+	padding: 0 auto;
+	box-shadow:0 0 10px black ;
+	background: white;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	min-width: 1200px;
+}
+table{
+	/*border: 1px solid red;*/
+	width: 100%;
+}
+#conteudo table tr{
+	width: 100%;
+	/*max-width: 930px;*/
+}
+#conteudo table td {
+	width: 100%;
+}
+
+#rodape{
+width: 100%;
+height: 230px;
+background:red;
+min-width: 1300px;
+}
+.titulo-video{
+	font-size: 0.9em;
+}
+.video{
+width: 390px;	
+height: 210px;
+}
+#rodape h5{
+text-align: center;
+padding-top: 10px;
+color: white;
+}
+#contato {
+color: white;
+padding-left: 15px;
+}
+#redes-socias ul {
+	list-style: none;
+}
+#redes-socias ul {
+	float: right;
+	padding-right: 100px;
+}
+#redes-socias ul a{
+	text-decoration: none;
+	color: white;
+}
+#redes-socias ul a:hover{
+	color: #2F302C;
+	/*font-size: 1.1em;*/
+}
+#email{
+	text-decoration: none;
+	color: white;
+}
+#email:hover {
+	text-decoration: underline;
+	color: white;
+}
+.redes-socias-icon{
+	width: 25px;
+	height: 25px;
+}
+.redes-socias-icon:hover {
+	width: 26px;
+	height: 26px;
+}
+
+
+
