@@ -2,8 +2,9 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 	<title>registrar</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="icon" type="image/x-icon" href="imagens/favicon.png">
 	<style type="text/css">
 		body{
 			background: url(imagens/background.png);
@@ -30,7 +31,7 @@
 		}
 		#login{
 			
-			padding-top: 50px;
+			padding-top: 10px;
 			padding-left: 80px;
 		}
 		h2{
@@ -73,9 +74,15 @@
 			cursor: pointer;
 		}
 		#registrar{
-			margin-top: 40px;
+			margin-top: 20px;
 			margin-left: 90px;
 			padding: 10px;
+		}
+		#registrar:hover {
+			margin-top: 20px;
+			margin-left: 90px;
+			padding: 10px;
+			cursor: pointer;
 		}
 		div form label{
 			margin-left: 5px;
@@ -100,7 +107,9 @@
 				<input  id="senha" type="password"  name="senha" placeholder="senha"><br><br>
 				<input id="submit" type="submit" value="registrar" name="registrar">
 			</form>
-			 
+			 <a href="login-registrar.html">
+			 	<input id="registrar" type="button" name="login" value="volta para login">
+			 </a>
 		</div>
 	</main>
 </body>
