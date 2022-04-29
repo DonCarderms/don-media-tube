@@ -14,14 +14,17 @@
 		header{
 			background: red ;
 			height: 100px;
-			width: 1343px;
+			position: relative;
 		}
 		header img{
-		margin-left:400px ;
+		 width: 300px;
+		 position: absolute;
+		 top: 10px;
 		}
-	 	main{
+	 	.flex{
+
 	 		background: red;
-	 		width: 450px;
+	 		width: 300px;
 	 		height: 400px;
 	 		margin: 0 auto;
 	 		padding: 0 auto;
@@ -32,7 +35,7 @@
 		#login{
 		
 			padding-top: 80px;
-			padding-left: 100px;
+			padding-left: 30px;
 		}
 		h2{
 			color: white;
@@ -81,9 +84,8 @@
 		<a href="index.html"><img src="imagens/icon.png"></a>
 	</header>
 
-	<main>
-
-		<div id="login">
+<div class="flex">
+	  <div id="login">
 			<form>
 				
 				<h2>login<img src="imagens/people.png" width="50px"></h2>
@@ -97,6 +99,9 @@
 			 	<input id="registrar" type="button" name="registrar" value="registrar-se">
 			 </a>
 		</div>
-	</main>
+	
+</div>
+
+	
 </body>
 </html>

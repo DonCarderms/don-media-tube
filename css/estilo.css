@@ -1,117 +1,122 @@
+
+*{
+margin: 0;
+padding: 0;
+}
 body{
 	font-family:Arial, Helvetica, sans-serif;
 	background:#FAF9C1 ;
-	margin: 0 ;
-	padding: 0;
-	/*width: 100%;*/
 }
 
-#ppp{
-	width: 100%;
-	min-width: 1300px;
+ul{
+	list-style: none;
 }
-#container{
-	width: 100%;
-	min-width: 720px;*/
+
+a{
+	text-decoration: none;
 }
-.cabecalho{
-	background: red;
-   padding: 20px;
+
+header{
+	height: 120px;
+	background: red url(../imagens/icon.png) no-repeat top center;
+	background-size: 300px;
+	position: relative;
+}
+header h1{
+	color: white;
+	text-indent: -3000px;
+}
+	nav {
+		background: red;
+		height: 50px;
+		padding-top: 20px;
+	}
+nav ul a{
+	padding: 10px;
+	color: gray;
+	background: #fff;
+	margin: 10px;
+	border-radius: 30px;
+}
+
+nav ul a:hover {
+	background:#ECE8E7;
+
+}
+.search{
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+}
+
+#home,#music, #login link:vizited{
+
 }
 
 #pesquisa{
-	float: center;
-	border: none;
 	padding: 10px;
-	background:white url(../imagens/search.png) no-repeat bottom right;
-	background-size: 20px;
-	width: 500px;
-	height: 50px;
+	width: 300px;
+	height: 40px;
+	font-size: 20px;
+	border-radius: 10px;
+}
+
+#pesquisa:hover {
+		background:white url(../imagens/search.png) no-repeat bottom right;	
+		background-size: 20px;
+	border: 0;	
 }
 
 
-#icon-youtube{
-	padding-top: 10px;
-	position: top;
-}
-.cabecalho h1{
-	color: white;
-	 text-align: center;
-	 font-size: 3em;	
-}
-#menu{
-font-family: Verdana, Arial, Helvetica, sans-serif;
-min-width: 500px;
-margin-right:0px;
+
+.menu{
+	display: flex;
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+
  }
 
-#menu ul{
-background: red;
-padding: 40px;
-margin: 0px;
-list-style: none;
-width: 700px;
-}
-#menu ul li{
-	float: left;
-   padding: 5px;
-}
-#menu ul li a {
-	color: black;
-	text-decoration: none;
-  background: white;
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 1em;
- margin: 0;
- box-shadow:0 0 15px black;	
-}
-#menu ul li a:hover{
-	background: #d3d3d3;
-	color: black;
-	border-radius: 15px;
-	font-size: 1em;
-}
+	
 .conteudo{
-	max-width: 1300px;
-	/*width: 100%;*/
 	padding: 10px;
-	margin: 0 auto;
-	padding: 0 auto;
 	box-shadow:0 0 10px black ;
 	background: white;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
-	min-width: 1200px;
-}
-table{
-	/*border: 1px solid red;*/
-	width: 100%;
-}
-#conteudo table tr{
-	width: 100%;
-	/*max-width: 930px;*/
-}
-#conteudo table td {
-	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
-#rodape{
-width: 100%;
-height: 230px;
-background:red;
-min-width: 1300px;
-}
-.titulo-video{
-	font-size: 0.9em;
+.item{
+	margin: 10px;
+	width: 340px;
+	height: 315px;
+	/*border: 1px solid red;*/
+   position: relative;
 }
 .video{
-width: 390px;	
-height: 210px;
+ position: absolute;
+ top: 30%;
 }
-#rodape h5{
+
+
+.titulo-video{
+	padding-top: 20px;
+	font-size: 0.9em;
+	text-align: center;
+}
+
+footer{
+	background: red;
+	position: relative;
+}
+
+footer h5{
 text-align: center;
-padding-top: 10px;
+padding: top;
+margin: 10px;
 color: white;
 }
 #contato {
@@ -119,20 +124,23 @@ color: white;
 padding-left: 15px;
 }
 #redes-socias ul {
-	list-style: none;
-
+    margin: 10px;
 }
 #redes-socias ul {
-	float: right;
+	
 	padding-right: 100px;
 }
 #redes-socias ul a{
-	text-decoration: none;
 	color: white;
 }
 #redes-socias ul a:hover{
 	color: #2F302C;
 	/*font-size: 1.1em;*/
+}
+
+.linkicon{
+	display: flex;
+	flex-direction: row;
 }
 #email{
 	text-decoration: none;
@@ -145,6 +153,7 @@ padding-left: 15px;
 .redes-socias-icon{
 	width: 25px;
 	height: 25px;
+	padding: 5px;
 }
 .redes-socias-icon:hover {
 	width: 28px;
@@ -153,8 +162,4 @@ padding-left: 15px;
 
 
 /*pagina login e registrar*/
-#login-registar{
 
-	margin: 0 auto;
-	padding: 0 auto;
-}
