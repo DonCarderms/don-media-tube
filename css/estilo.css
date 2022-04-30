@@ -5,7 +5,6 @@ padding: 0;
 }
 body{
 	font-family:Arial, Helvetica, sans-serif;
-	background:#FAF9C1 ;
 }
 
 ul{
@@ -80,10 +79,7 @@ nav ul a:hover {
 	
 .conteudo{
 	padding: 10px;
-	box-shadow:0 0 10px black ;
 	background: white;
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -99,6 +95,7 @@ nav ul a:hover {
    position: relative;
 }
 .video{
+	width: auto;
   height: 200px;
 }
 
