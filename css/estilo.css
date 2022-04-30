@@ -56,7 +56,7 @@ nav ul a:hover {
 
 #pesquisa{
 	padding: 10px;
-	width: 300px;
+	width: 250px;
 	height: 40px;
 	font-size: 20px;
 	-webkit-border-radius: 10px;
@@ -99,13 +99,13 @@ nav ul a:hover {
    position: relative;
 }
 .video{
- position: absolute;
- top: 30%;
+  height: 200px;
 }
 
 
 .titulo-video{
 	padding-top: 20px;
+	padding-bottom: 10px;
 	font-size: 0.9em;
 	text-align: center;
 }
@@ -147,6 +147,7 @@ padding-left: 15px;
 #email{
 	text-decoration: none;
 	color: white;
+	font-size: 0.8em;
 }
 #email:hover {
 	text-decoration: underline;
