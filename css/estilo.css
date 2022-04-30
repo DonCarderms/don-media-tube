@@ -15,6 +15,7 @@ a{
 	text-decoration: none;
 }
 
+
 header{
 	height: 120px;
 	background: red url(../imagens/icon.png) no-repeat top center;
@@ -27,9 +28,10 @@ header h1{
 }
 	nav {
 		background: red;
-		height: 50px;
+		height: 60px;
 		padding-top: 20px;
 	}
+
 nav ul a{
 	padding: 10px;
 	color: gray;
@@ -40,6 +42,8 @@ nav ul a{
 }
 
 nav ul a:hover {
+	color: gray;
+	text-decoration: none;
 	background:#ECE8E7;
 
 }
