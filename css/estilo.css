@@ -36,7 +36,8 @@ nav ul a{
 	color: gray;
 	background: #fff;
 	margin: 10px;
-	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
 }
 
 nav ul a:hover {
@@ -58,7 +59,8 @@ nav ul a:hover {
 	width: 300px;
 	height: 40px;
 	font-size: 20px;
-	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
 }
 
 #pesquisa:hover {
