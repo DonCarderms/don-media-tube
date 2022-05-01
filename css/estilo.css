@@ -27,6 +27,7 @@ header h1{
 	text-indent: -3000px;
 }
 	nav {
+		box-shadow: 0px 5px 10px 0px #342828;
 		background: red;
 		height: 60px;
 		padding-top: 20px;
@@ -48,7 +49,6 @@ nav ul a:hover {
 
 }
 .search{
-	margin-top: 40px;
 	display: flex;
 	justify-content: center;
 }
@@ -69,15 +69,15 @@ nav ul a:hover {
 #pesquisa:hover {
 		background:white url(../imagens/search.png) no-repeat bottom right;	
 		background-size: 20px;
-	border: 0;	
+	    border: 0;	
 }
 
 
 
 .menu{
+	justify-content: center;
 	display: flex;
- font-family: Verdana, Arial, Helvetica, sans-serif;
-
+   font-family: Verdana, Arial, Helvetica, sans-serif;
  }
 
 	
@@ -99,8 +99,10 @@ nav ul a:hover {
    position: relative;
 }
 .video{
-	width: auto;
-  height: 200px;
+	position: absolute;
+	top: 18%;
+	width: 100%;
+  	height: 200px;
 }
 
 
@@ -117,6 +119,7 @@ footer{
 }
 
 footer h5{
+	font-size: 0.8em;
 text-align: center;
 padding: top;
 margin: 10px;
