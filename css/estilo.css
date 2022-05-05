@@ -15,39 +15,12 @@ a{
 	text-decoration: none;
 }
 
-
-header{
-	height: 120px;
-	background: red url(../imagens/icon.png) no-repeat top center;
-	background-size: 300px;
-	position: relative;
-}
 header h1{
 	color: white;
 	text-indent: -3000px;
 }
-	nav {
-		box-shadow: 0px 5px 10px 0px #342828;
-		background: red;
-		height: 60px;
-		padding-top: 20px;
-	}
+	
 
-nav ul a{
-	padding: 10px;
-	color: gray;
-	background: #fff;
-	margin: 10px;
-	-webkit-border-radius: 30px;
-	-moz-border-radius: 30px;
-}
-
-nav ul a:hover {
-	color: gray;
-	text-decoration: none;
-	background:#ECE8E7;
-
-}
 .search{
 	display: flex;
 	justify-content: center;
@@ -114,7 +87,7 @@ nav ul a:hover {
 }
 
 footer{
-	background: red;
+	height: 200px;
 	position: relative;
 }
 
@@ -144,6 +117,7 @@ padding-left: 15px;
 	/*font-size: 1.1em;*/
 }
 
+
 .linkicon{
 	display: flex;
 	flex-direction: row;
@@ -158,13 +132,13 @@ padding-left: 15px;
 	color: white;
 }
 .redes-socias-icon{
-	width: 25px;
-	height: 25px;
+	width: 35px;
+	height: 35px;
 	padding: 5px;
 }
 .redes-socias-icon:hover {
-	width: 28px;
-	height: 28px;
+	width: 38px;
+	height: 38px;
 }
 
 
