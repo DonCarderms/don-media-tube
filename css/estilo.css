@@ -87,22 +87,25 @@ header h1{
 }
 
 footer{
-	height: 200px;
 	position: relative;
 }
 
 footer h5{
-	font-size: 0.8em;
+padding-top: 70px;
+font-size: 0.8em;
 text-align: center;
-padding: top;
 margin: 10px;
-color: white;
+color: black;
 }
 #contato {
-color: white;
+position: absolute;
+top: 10%;
+color: black;
 padding-left: 15px;
 }
 #redes-socias ul {
+	top: 40%;
+	position: absolute;
     margin: 10px;
 }
 #redes-socias ul {
@@ -110,7 +113,7 @@ padding-left: 15px;
 	padding-right: 100px;
 }
 #redes-socias ul a{
-	color: white;
+	color: black;
 }
 #redes-socias ul a:hover{
 	color: #2F302C;
@@ -132,13 +135,14 @@ padding-left: 15px;
 	color: white;
 }
 .redes-socias-icon{
-	width: 35px;
-	height: 35px;
+	width: 40px;
+	height: 40px;
 	padding: 5px;
 }
 .redes-socias-icon:hover {
-	width: 38px;
-	height: 38px;
+	width: 45px;
+	height: 45px;
+	
 }
 
 

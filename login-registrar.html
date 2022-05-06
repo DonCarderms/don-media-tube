@@ -2,106 +2,115 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Login/registrar</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Fazer login</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 	<link rel="icon" type="image/x-icon" href="imagens/favicon.png">
-	<style type="text/css">
-		body{
-			background: url(imagens/background.png);
-			font-family:Arial, Helvetica, sans-serif;
-
-		}
-		header{
-			background: red ;
-			height: 100px;
-			position: relative;
-		}
-		header img{
-		 width: 300px;
-		 position: absolute;
-		 top: 10px;
-		}
-	 	.flex{
-
-	 		background: red;
-	 		width: 300px;
-	 		height: 400px;
-	 		margin: 0 auto;
-	 		padding: 0 auto;
-	 		margin-top:100px ;
-	 		margin-bottom: 100px;
-	 		border-radius: 20px;
-		}
-		#login{
-		
-			padding-top: 80px;
-			padding-left: 30px;
-		}
-		h2{
-			color: white;
-			margin-left: 90px;
-		}
-		span{
-			color: white;
-		}
-		#email{
-			border: none;
-			padding: 8px;
-		}
-		#senha{
-			background: white url(imagens/cadeado.png) no-repeat bottom right;
-			background-size: 20px;
-			border: none;
-			padding: 8px;
-		}
-		#submit{
-			margin-left: 100px;
-			padding-left: 20px;
-			padding-right: 20px;
-			padding-top: 8px;
-			padding-bottom: 8px;
-			border: none;
-			}
-		#submit:hover{
-			background:#BCBFB6;
-			cursor: pointer;
-		}
-		#registrar{
-			margin-top: 40px;
-			margin-left: 90px;
-			padding: 10px;
-		}
-		#registrar:hover {
-			cursor: pointer;
-		}
-		div form label{
-			margin-left: 5px;
-		}
-</style>
-</head>
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+    <![endif]-->
+    	 <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 <body>
-	<header>
-		<a href="index.html"><img src="imagens/icon.png"></a>
-	</header>
 
-<div class="flex">
-	  <div id="login">
-			<form>
+		<nav class="navbar navbar-expand-sm bg-danger navbar-light fixed-top ">
+		    	<!-- logo-->
+		    	<a class="navbar-brand" href="index.html">
+		    		<img id="logo" width="150px" src="imagens/icon.png">
+		    	</a>
+
+		    	 <!--menu hamburger-->
+		         <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
+		           <span class="navbar-toggler-icon"></span>
+		         </button>
+
+
+		         <!-- navegacao-->
+		         <div class="collapse navbar-collapse" id="nav-target">
+
+		            <ul class="navbar-nav ml-auto">
+		                 <li class="nav-item">
+		                   <a class="nav-item nav-link text-light " href="index.html">Home</a>
+		                 </li>
+		                 <li class="navbar-item">
+		                   <a class="nav-link text-light  " href="music.html">music</a>
+		                 </li>
+		                 <li class="navbar-item">
+		                   <a class="nav-link text-light " href="#">login / registrar</a>
+		                 </li>
+		                 
+		            </ul>
+		         </div>
+        </nav>
+		
+		 <div style="width: 300px; margin: auto; padding: auto; margin-top: 200px;">
+
+		 	    <a class="nav-link text-danger text-center" href="registrar.html">criar conta?</a>
 				
-				<h2>login<img src="imagens/people.png" width="50px"></h2>
-				
-				<label  for="email"><span>E-mail:</span></label><input id="email" type="text" name="email" placeholder="E-mail"><br><br>
-				 <span>Senha:</span>
-				<input  id="senha" type="password"  name="senha" placeholder="senha"><br><br>
-				<input id="submit" type="submit" value="logar" name="logar">
-			</form>
-			 <a href="registrar.html">
-			 	<input id="registrar" type="button" name="registrar" value="registrar-se">
-			 </a>
+		         <div class="input-group mb-3">
+
+					<div class="input-group-prepend">
+						<span class="input-group-text bg-danger text-light" id="basic-addon2">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M1.75 2A1.75 1.75 0 000 3.75v.736a.75.75 0 000 .027v7.737C0 13.216.784 14 1.75 14h12.5A1.75 1.75 0 0016 12.25v-8.5A1.75 1.75 0 0014.25 2H1.75zM14.5 4.07v-.32a.25.25 0 00-.25-.25H1.75a.25.25 0 00-.25.25v.32L8 7.88l6.5-3.81zm-13 1.74v6.441c0 .138.112.25.25.25h12.5a.25.25 0 00.25-.25V5.809L8.38 9.397a.75.75 0 01-.76 0L1.5 5.809z"></path>
+							</svg>
+						</span>
+					</div>
+					<input type="email" class="form-control" placeholder="@email" ariel-label="email">	
+		         </div>
+		         <div class="input-group mb-3">
+
+					<div class="input-group-prepend">
+						<span class="input-group-text bg-danger text-light" id="basic-addon3"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M4 4v2h-.25A1.75 1.75 0 002 7.75v5.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 13.25v-5.5A1.75 1.75 0 0012.25 6H12V4a4 4 0 10-8 0zm6.5 2V4a2.5 2.5 0 00-5 0v2h5zM12 7.5h.25a.25.25 0 01.25.25v5.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-5.5a.25.25 0 01.25-.25H12z"></path></svg></span>
+					</div>
+					<input type="password" class="form-control" placeholder="senha" ariel-label="username">	
+					
+		         </div>
+					<input type="submit" class="btn btn-danger text-light" value="entrar">
+					<a class="nav-link text-danger text-center" href="">esqueci minha senha?</a>				
 		</div>
-	
-</div>
 
-	
+			
+    
+		
+		<footer class="">
+			   <hr>
+					<div id="contato">
+						
+							Email:<a id="email" target="_blank" href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCKHQdVzwtJnKFgqZKmDJvvfwgZNVLfGpMVBgSRBrhCMPqSrGtlSXKrnGTJPhQDgnZjrRNZg"><em style="color:black;">donphilocardermssouffrant@gmail.com</em></a>
+					</div>
+					<div id="redes-socias">
+						
+							<ul class="linkicon">
+								<li class="link">
+									<a target="_blank" href="https://www.facebook.com/souffrant.donphilocarderms.9/">
+										<img class="redes-socias-icon" width="30" height="30" src="imagens/facebook.png"> 
+									</a>
+								</li >	
+								<li class="link">
+									<a target="_blank" href="https://www.instagram.com/don_carderms/">
+										<img class="redes-socias-icon" width="30" height="30" src="imagens/instagram.png"> 
+									</a>
+								</li>
+								<li class="link">
+									<a target="_blank" href="https://www.youtube.com/channel/UCe69eIxy57Bb55bcnndwP6g">
+										 <img class="redes-socias-icon" width="30" height="30"  src="imagens/youtube-logo.png"> 
+								    </a>	
+								</li>
+							</ul>
+						
+					</div>
+
+					
+						<h5> Copyright © 2022 Don Carderms</h5>
+					
+
+		</footer>
+		    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+				
 </body>
 </html>
